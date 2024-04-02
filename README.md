@@ -1,5 +1,5 @@
 # JavaScript
-Day 1-2 April 1st-2nd B站网课1-20
+Day 1 April 1ST B站网课1-20
 1.JS书写位置 行内 内嵌 外部
 行内：不推荐，会使html太乱 <input type="button" value="唐伯虎" onclick="alert(点秋香)">
 内嵌：短的代码很常用 语法：<script></script> js代码写在中间
@@ -22,3 +22,13 @@ var temp;
 temp=b;
 b=a;
 a=temp;
+
+Day2 April 2ND B站网课21-30
+1.数据类型 number string boolean null undefined
+2.八进制 开头0 十六进制 开头0x
+3.isNaN方法 判断是不是非数字 isNaN(12) = false
+4.引号嵌套 外双内单 外单内双
+5.换行\n 缩进\t 注意写在引号里面
+6.字符串长度length方法 str.length
+7.字符串拼接+ 可以拼接任何，数字甚至undefined
+8.typeof xxx 返回变量类型
