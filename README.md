@@ -32,3 +32,22 @@ Day2 April 2ND B站网课21-30
 6.字符串长度length方法 str.length
 7.字符串拼接+ 可以拼接任何，数字甚至undefined
 8.typeof xxx 返回变量类型
+
+Day3 April 3rd B站网课 31--70
+1.数据类型转换 数字型转字符串：
+a)str = num.toString()
+b)str = String(num)
+c)str = 12 + ''隐形转换
+2.字符串转化为数字（因为prompt输入的默认是string，如果需要做数学运算，必须要经历这一步）
+a)parseInt()向下取整 单位不要
+b)parseFloat()浮点型
+c)Num(str)
+d)'12'-0隐形转化
+3.转化为bool
+Boolean()
+仅有0，NaN，undefined，''为false 其余都是true
+值得提醒的是，'0'是True，因为不是空的
+4.运算符和表达式 等同于C 在此不赘述
+5.逻辑中断 了解就行
+6.分支 和C一模一样
+今天看似学的多，实际上和C基本完全一样 学到P143之前完全没有新东西。
