@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="day4.js"></script>
+    <script>
+        var flag1 = false;
+        var flag2 = false;
+        while (1) {
+            var admin = prompt('请输入用户名');
+            var pwd = prompt('请输入密码');
+            if (admin == 'admin') {
+                flag1 = true;
+            }
+            if (pwd == '123456') {
+                flag2 = true;
+            }
+            if (flag1 == true && flag2 == true) {
+                alert('登录成功');
+                break;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
