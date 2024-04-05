@@ -52,9 +52,19 @@ Boolean()
 6.分支 和C一模一样
 今天看似学的多，实际上和C基本完全一样 学到P143之前完全没有新东西。
 
-Day4 April 4nd B战网课71--95
+Day4 April 4th B战网课71--95
 JS循环和C循环95%一模一样 今天就是复习
 大多数情况用for循环for(var i=1;i<=100;i++)
 极少数用while和dowhile，while先判断条件后执行循环，dowhile先循环一次再判断条件
 break：退出整个循环，continue：退出本次循环进行下一次
 案例：注册案例 打印n行n列的星星/倒三角/乘法口诀表，使用嵌套循环（双循环）
+
+Day5 April 5th B战网课96--
+JS数组和函数c
+声明数组
+1.new关键字 不常用 2.var arr =[]
+剩下和C一模一样
+声明函数
+function func_name(num1,num2){}
+剩下和C一模一样
+今天纯复习，明天作用域和面向对象开学了。
