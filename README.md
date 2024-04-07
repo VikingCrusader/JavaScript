@@ -76,3 +76,23 @@ JS的作用域和与解析
 2.作用域链 一层层向上查找
 3.未用var定义的变量都是全局变量，即使他在函数内定义
 4.预解析 函数的声明和变量的声明在作用域内提升到最优先执行的位置，不过变量声明和函数调用不提升。
+
+Day7 April 7th B站网课 143--152
+JS对象
+声明对象
+1. var obj={}不常用
+2. var object = new Object();
+3. 构造函数
+4. function Star (){}
+5. this.name=name;
+6. this.age=age;
+7. this.sing=function(song)
+8. {
+9.   console.log('song');
+10. }
+11. 使用构造函数new 注意构造函数首字母大写！
+12. var zxy = new Star('zxy',18);
+13. zxy.sing('ss');
+使用对象
+object.name
+object.song=
