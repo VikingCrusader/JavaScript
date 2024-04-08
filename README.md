@@ -83,16 +83,41 @@ JS对象
 1. var obj={}不常用
 2. var object = new Object();
 3. 构造函数
-4. function Star (){}
-5. this.name=name;
-6. this.age=age;
-7. this.sing=function(song)
-8. {
-9.   console.log('song');
-10. }
-11. 使用构造函数new 注意构造函数首字母大写！
-12. var zxy = new Star('zxy',18);
-13. zxy.sing('ss');
-使用对象
+function Star (){}
+this.name=name;
+this.age=age;
+this.sing=function(song)
+{
+   console.log('song');
+}
+4.使用构造函数new 注意构造函数首字母大写！
+var zxy = new Star('zxy',18);
+zxy.sing('ss');
+5.使用对象
 object.name
-object.song=
+object.song()
+
+Day8 April 8th B站网课 153-162
+1.对象遍历 for..in语句
+for (var k in obj)
+{
+  console.log(k);//打印变量
+  console.log(obj[k]);//打印具体的值
+}
+2.JS中new关键字自带返回对象功能，所以不需要用return.
+3.JS内置对象--MATH
+Math.PI圆周率
+Math.abs绝对值
+Math.max一组数最大值
+Math.min一组数最小值
+Math.ceil()向上取整
+Math.floor()向下取整
+Math.round()四舍五入
+Math.random()生成0--1的随机数
+4.生成两个数中间，包含首尾的任意整数
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1));
+}
+可以用于点名器，猜数字游戏这类应用
