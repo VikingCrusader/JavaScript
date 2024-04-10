@@ -121,3 +121,40 @@ function getRandomIntInclusive(min, max) {
     return Math.floor(Math.random() * (max - min + 1));
 }
 可以用于点名器，猜数字游戏这类应用
+
+Day9 April 9th B站网课 163--172
+日期对象Date
+var date = new Date() 这么写是是调用Date内置对象，date是变量，如果括号里面啥都没有，就是当前时间的年月日 时分秒
+var date = new Date('2024,10,01,00:00:00');这么写就是声明一个日期，赋值给date，注意用字符串，不然的话月份返回会少1，因为月份是从0到11，不是1到12
+date.getFullYear()
+date.getMonth()
+date.getDate()日期
+date.getDay()星期 0-6,1-6是周一到周六 0是周日
+date.getHours()
+date.getMinutes()
+date.getSeconds()
+时间戳timestamp
+距离1970/01/01到现在的毫秒数
+date.getTime()
+var timestamp = + new Date()
+声明时间戳的两种方式
+倒计时系统
+时间戳相减，然后换算
+数组对象Array
+var arr = new Array()
+var arr = new Array(2) 声明一个长度为2的空数组
+var arr = new Array(2,3,4) 声明一个数组[2,3,4]
+检测是否为数组
+1.instanceof
+console.log(arr intanceof Array)   是数组：输出true， 不是数组：输出false
+2.
+Array.isArray(1,2,3) false
+Array.isArray([1,2,3]) true
+添加/删除数组元素
+添加：
+push():在数组末尾添加数组元素，并返回新的数组长度，可以一次性添加好几个
+shift()：在数组最前面添加数组元素，并返回新的数组长度，可以一次性添加好几个
+删除：
+pop():在数组末尾删除数组元素，并返回删除的元素的值，只能一次删除一个元素
+unshift():在数组最前面删除数组元素，并返回删除的元素的值，只能一次删除一个元素
+
