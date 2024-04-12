@@ -188,3 +188,32 @@ Day11 April 11th B站网课181--182
 1.charAt(index) 返回字符
 2.charCodeAt(index) 返回字符对应的ASCII码
 3.str[index]等同于第一个 H5新增的
+
+Day12 April 12th
+统计出现次数最多的字符
+用chatAt() 遍历字符串 然后存储对象 如果对象没有该属性就为1，如果已有就+1， 遍历对象 得到最大值和字符
+明天复习
+
+var str = 'abcoefoxyozzopp'
+var o = {};
+for (var i = 0; i < str.length; i++) {
+    var chars = str.charAt(i);
+    if (o[chars]) {
+        o[chars]++;
+    } else {
+        o[chars] = 1;
+    }
+}
+console.log(o);
+var max = 0;
+var ch = ''
+for (var k in o) {
+    //k是属性名
+    //o[k]得到属性值
+    if (o[k] > max) {
+        max = o[k];
+        ch = k;
+    }
+}
+console.log(max);
+console.log(ch);
