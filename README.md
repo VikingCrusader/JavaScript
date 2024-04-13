@@ -217,3 +217,9 @@ for (var k in o) {
 }
 console.log(max);
 console.log(ch);
+
+Day13.字符串操作方法
+concat 和+基本一致
+substr(start，length)
+slice(start,end)end取不到
+后两个效果差不多
