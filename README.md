@@ -223,3 +223,6 @@ concat 和+基本一致
 substr(start，length)
 slice(start,end)end取不到
 后两个效果差不多
+
+Day14 复习
+复习了字符串的相关函数和应用
